@@ -20,4 +20,4 @@ function averageCelsius(fahrenheitReadings) {
 
 // Example usage:
 var fahrenheitReadings = [32, 68, 86, 104];
-console.log(averageCelsius(fahrenheitReadings)); // Output: 20
+console.log(averageCelsius(fahrenheitReadings)); // Output: 22.5
