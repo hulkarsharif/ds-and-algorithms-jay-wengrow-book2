@@ -53,3 +53,15 @@ function dojoWay(num) {
     return num;
 }
 dojoWay(25);
+//Log positive numbers starting at 2016, counting down by fours (exclude 0), without a FOR loop.
+
+for (let i = 2016; i >= 0; i -= 4) {
+    console.log(i);
+}
+//with while loop
+let number = 2016;
+
+while (number > 0) {
+    console.log(number);
+    number -= 4; // Count down by fours
+}
